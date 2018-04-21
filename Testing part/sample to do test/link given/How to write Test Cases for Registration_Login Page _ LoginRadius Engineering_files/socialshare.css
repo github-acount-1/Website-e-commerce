@@ -1,0 +1,121 @@
+.oss_share_interfacebox.oss_share_flat {
+    top: 50% !important;
+    margin-top: -137px;
+    /*LoginRadius Commenting*/
+}
+.oss_-post-button {
+    background-color: #29d;
+    color: white;
+}
+.excerpt-group > .oss_horizontal_share {
+    float: right;
+    margin-top: -6px !important;
+    padding: 0 !important;
+    vertical-align: middle;
+}
+.content-group > .oss_horizontal_share {
+    padding: 0 !important;
+    vertical-align: middle;
+    /*Sharing Hack*/
+}
+
+.excerpt-group > .oss_horizontal_share a {
+    position: relative !important;
+    z-index: 1 !important;
+}
+.excerpt-group > .oss_horizontal_share a {
+    z-index: -10 !important;
+    opacity: 0 !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.excerpt-group > .oss_horizontal_share .os-share-count {
+    position: relative !important;
+    z-index: 1 !important;
+    opacity: 1 !important;
+}
+.excerpt-group > .oss_horizontal_share .os-share-count {
+    width: 75px !important;
+    border: 0px !important;
+    border-left: 1px solid #eee !important;
+    background: none !important;
+    font-size: 18px !important;
+    color: grey !important;
+    text-align: center !important;
+}
+.excerpt-group > .oss_horizontal_share .os-share-count:after {
+    border-right: 0px !important;
+}
+.excerpt-group > .oss_horizontal_share .os-share-count {
+    background: url(../images/share-square-o-32.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 24px 24px !important;
+    border: 0px !important;
+}
+.excerpt-group > .oss_horizontal_share .os-share-count:before {
+    font-family: dashicons !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 5px !important;
+    border: 0px !important;
+    top: 0 !important;
+    left: 8px !important;
+    font-size: 22px;
+}
+.excerpt-group > .oss_horizontal_share:hover a {
+    position: relative !important;
+    z-index: 1 !important;
+    opacity: 1 !important;
+}
+.content-group > p + .oss_horizontal_share {
+    padding-top: 60px !important;
+    background-image: url(images/sharethis.png);
+    background-position: 0 25px;
+    background-repeat: no-repeat;
+}
+.oss_share_interfacebox.oss_share_flat {
+    left: 0;
+}
+.content-group {
+    position: relative;
+}
+.content-group > p + .oss_horizontal_share {
+    padding-top: 60px !important;
+}
+.content-group .oss_sharing-parent {
+    position: absolute !important;
+    right: 100% !important;
+    margin-right: 60px;
+    top: 0px !important;
+}
+.content-group .oss_sharing-parent > .oss_sharing-floated {
+    width: auto;
+    padding: 10px 0 !important;
+    border-radius: 5px;
+}
+.content-group .oss_sharing-parent > .oss_sharing-floated > .oss_share_interfacebox {
+    top: 0 !important;
+    margin-top: 0;
+    right: 0;
+    position: absolute !important;
+}
+.content-group .oss_sharing-parent > .oss_sharing-floated > .oss_share_interfacebox .oss_share_left,
+.content-group .oss_sharing-parent > .oss_sharing-floated > .oss_share_interfacebox .stylefloat_none {
+    float: right;
+}
+.content-group .oss_sharing-parent > .oss_sharing-floated > .oss_share_interfacebox .oss_share_left:hover {
+    padding: 0 10px 0 0;
+}
+.content-group .oss_sharing-parent > .oss_sharing-floated.sticky {
+    background: none;
+    position: fixed;
+    top: 150px;
+}
+.more.share-provider{display:none !important;}
+@media only screen and (max-width:1275px) {
+    /*Landing Page*/
+    .content-group .oss_sharing-parent {
+        display: none !important;
+    }
+}

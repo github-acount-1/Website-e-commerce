@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/ -->
+<html lang="en-US" itemscope="" itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+                 Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <link rel="shortcut icon" href="https://www.loginradius.com/engineering/wp-content/themes/LoginRadius_Blog-2017/favicon.ico">
+        <meta name="google-site-verification" content="guE7m9sjqoi-INoKdemYPMZK3WA0DVU04VyyiGjGJTo">
+
+        <title>How to write Test Cases for Registration/Login Page | LoginRadius Engineering</title>
+
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/normalize.css">
+
+        <!-- Wordpress Templates require a style.css in theme root directory -->
+        <link rel="stylesheet" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/style.css">
+        <link rel="stylesheet" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/socialshare.css">
+        <script src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/306489169560839" async=""></script><script async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/w.js.download"></script><script id="wishpond-connect" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/connect.js.download"></script><script type="text/javascript" async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/insight.min.js.download"></script><script type="text/javascript" async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/roundtrip.js.download"></script><script type="text/javascript" async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/atrk.js.download"></script><script async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/gtm.js.download"></script><script charset="utf-8" src="https://js.hsforms.net/forms/current.js"></script>
+        <!-- Place favicon.ico and apple-touch-icon.png?ver=1512428026 in the root directory -->
+        <link rel="stylesheet" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/style(1).css">
+        <!-- Wordpress Head Items -->
+        <!-- <link rel="pingback" href="https://www.loginradius.com/engineering/xmlrpc.php" /> -->
+        
+<!-- All in One SEO Pack 2.4.2 by Michael Torbert of Semper Fi Web Design[911,948] -->
+<meta name="description" content="How many test cases can you think of for login and registration page? I bet the article will give you all the test cases for login and signup page you can">
+
+<link rel="canonical" href="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/">
+<meta property="og:title" content="How to write Test Cases for Registration/Login Page">
+<meta property="og:type" content="activity">
+<meta property="og:url" content="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/">
+<meta property="og:image" content="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026">
+<meta property="og:site_name" content="LoginRadius Engineering">
+<meta property="og:description" content="How many test cases can you think of for login and registration page? I bet the article will give you all the test cases for login and signup page you can possibly think of.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to write Test Cases for Registration/Login Page">
+<meta name="twitter:description" content="How many test cases can you think of for login and registration page? I bet the article will give you all the test cases for login and signup page you can possibly think of.">
+<meta name="twitter:image" content="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026">
+<meta itemprop="image" content="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026">
+			<script type="text/javascript">
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', 'UA-22321867-1', 'auto');
+				// Plugins
+				
+				ga('send', 'pageview');
+			</script>
+			<script async="" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/analytics.js.download"></script>
+			<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="https://sharecdn.social9.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="LoginRadius Engineering » Feed" href="https://www.loginradius.com/engineering/feed/">
+<link rel="alternate" type="application/rss+xml" title="LoginRadius Engineering » Comments Feed" href="https://www.loginradius.com/engineering/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="LoginRadius Engineering » How to write Test Cases for Registration and Login Page Comments Feed" href="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/feed/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="oss-social-sharing-front-css" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/oss-social-sharing-front.css" type="text/css" media="all">
+<link rel="stylesheet" id="oss-share-widget-style-css" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/os-share-widget-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="authorsure-css" href="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/public.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www.loginradius.com/engineering/wp-includes/js/jquery/jquery.js?ver=1512428026"></script>
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/gtm4wp-form-move-tracker.js.download"></script>
+<link rel="https://api.w.org/" href="https://www.loginradius.com/engineering/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.loginradius.com/engineering/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.loginradius.com/engineering/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Sweet 16 Javascript Hacks and Tips To Optimize Performance and Save time" href="https://www.loginradius.com/engineering/16-javascript-hacks-for-optimization/">
+<link rel="next" title="Know The Types of Website Popups and How to Create Them" href="https://www.loginradius.com/engineering/the-ultimate-guide-to-website-pop-ups/">
+<link rel="shortlink" href="https://www.loginradius.com/engineering/?p=957">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"single-post","pageCategory":["developer-resources"],"pagePostAuthor":"tanupriya"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NCMMSX');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi --><style type="text/css" id="syntaxhighlighteranchor"></style>
+        <!-- Start Alexa Certify Javascript -->
+        <script type="text/javascript">
+            _atrk_opts = {atrk_acct: "OxOan1aMp410cv", domain: "loginradius.com", dynamic: true};
+            (function () {
+                var as = document.createElement('script');
+                as.type = 'text/javascript';
+                as.async = true;
+                as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(as, s);
+            })();
+        </script>
+    <noscript>&lt;img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?ver=1512428026?account=OxOan1aMp410cv" style="display:none" height="1" width="1" alt="" /&gt;</noscript>
+    <!-- End Alexa Certify Javascript -->
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/shareTrackClient.min.js.download"></script><link rel="stylesheet" type="text/css" href="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/" media="all"><link rel="stylesheet" type="text/css" href="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/" media="all"><script async="true" type="text/javascript" src="https://d.adroll.com/pixel/U3W6IUHBRBCNLJXANQOOKP/OGVCQDAHRFA7DNSUP53OS4?pv=10053223643.51129&amp;cookie=&amp;adroll_s_ref=&amp;keyw=&amp;arrfrr=https%3A%2F%2Fwww.loginradius.com%2Fengineering%2Ftest-cases-for-registration-and-login-page%2F"></script><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/aol/out"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/index/out"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/n/out"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/outbrain/out"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/pubmatic/out"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/taboola/out"></div><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/r/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/b/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/x/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/l/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/o/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://d.adroll.com/cm/g/out?google_nid=adroll5">
+</div><script async="" charset="utf-8" type="text/javascript" src="https://d10lpsik1i8c69.cloudfront.net/js/clickstream.js" crossorigin="anonymous"></script><style type="text/css">.wishpond-campaign { animation-name: wishpondCampaign; animation-duration: 0.001s; }
+@keyframes wishpondCampaign {
+  from { outline: 1px solid transparent; }
+  to   { outline: 0px solid transparent; }
+}</style></head>
+<body class="post-template-default single single-post postid-957 single-format-standard"><div id="olark" style="display: none;"><olark><iframe frameborder="0" id="olark-loader" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/saved_resource.html"></iframe></olark></div>
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-NCMMSX"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="main-nav cf">
+        <div class="container">
+            <div class="logo-box cf">
+                <div class="logo no-text">
+                    <a href="https://www.loginradius.com/">LoginRadius Engineering</a>
+                </div>
+                <div id="site-description">engineering blog</div>
+            </div>
+
+            <input type="checkbox" class="sidebar-check" id="sidebar-check">
+            <nav>
+                <div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li id="menu-item-942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-942"><a href="https://www.loginradius.com/resources/">Resources</a></li>
+<li id="menu-item-943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-943"><a href="https://www.loginradius.com/developers/">Developers</a></li>
+<li id="menu-item-945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-945"><a href="https://www.loginradius.com/contact-sales/">Contact Us</a></li>
+</ul></div>                <form id="searchform" method="get" action="https://www.loginradius.com/engineering/">
+	<label for="s"><span class="icon-search"></span></label>
+	<input type="text" value="Search" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Search&#39;;}" onfocus="if(this.value == &#39;Search&#39;) {this.value = &#39;&#39;;}" name="s" id="s">
+	<input type="submit" id="searchsubmit" value="Search" class="submit" name="searchsubmit">
+</form>            </nav>
+
+            <label for="sidebar-check" class="toggle-menu icon-navicon"></label>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container cf"><div id="main" role="main">
+    <div class="pages-post">
+                        <article class="post-957 post type-post status-publish format-standard has-post-thumbnail hentry category-developer-resources" id="post-957">
+                    <span class="edit-float">
+                                            </span>
+                    <h1>How to write Test Cases for Registration and Login Page</h1>
+                    <div class="content-group">
+                        <blockquote><p><strong>This Article Explains Everything You Need To Test A Login/Signup Page 🙂 .&nbsp;</strong></p>
+<p>&nbsp;</p></blockquote>
+<p>Writing test cases (which is a key affair for a tester in application testing)&nbsp;requires experience&nbsp;and a keen eye for detail to build scenarios. Hence, an application tester should focus on creating a set of variables or conditions which will help him to determine whether the software meets requirements and functions flawlessly. I reduce that hassle, I have compiled a list of use case you need to test a signup or login page.</p>
+<p>Hope it will help you to create more error-free signup/login page for you.</p>
+<p><img class=" wp-image-962 alignright" src="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page-300x188.jpg?ver=1512428026" alt="How to write Test Cases for Registration/Login Page" width="384" height="241" srcset="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page-300x188.jpg?ver=1512428026 300w, https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026 568w" sizes="(max-width: 384px) 100vw, 384px"></p>
+<h3><b>Before We Start</b></h3>
+<p><span style="font-weight: 400;">You should gather all the customer requirements you can. The list of requirements which can be useful are:-</span></p>
+<p><b>Registration Form having following fields:-</b><b><br>
+</b><span style="font-weight: 400;">1.</span> <span style="font-weight: 400;">FirstName</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">2. LastName</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">3. UserName</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">4. Email Id</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">5. Password</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">6 Confirm Password</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">7. Address </span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">8. PhoneNumber</span><span style="font-weight: 400;"><br>
+</span><span style="font-weight: 400;">9. Gender</span><span style="font-weight: 400;"><br>
+</span></p>
+<p><span style="font-weight: 400;"><b>— Required fields are:</b><b><br>
+</b>1. EmailId<br>
+2. UserName<br>
+3. Password<br>
+4. Confirm Password<b><br>
+</b><b></b></span></p>
+<p><span style="font-weight: 400;"><b>— Validation for fields:</b><b><br>
+</b>1. Email<br>
+2. Password: It should have alphanumeric,&nbsp;Length should be 8 to 32<br>
+3. PhoneNumber: Phone Number should have only Numbers, Country code is required<br>
+<b></b></span></p>
+<p><span style="font-weight: 400;"><b>— After successful Verification email should send to the user</b><b><br>
+</b><b>— On Required fields * should show</b></span></p>
+<p><span style="font-weight: 400;">Now, let’s begin with our test cases. &nbsp;</span></p>
+<p><span style="font-weight: 400;">Although most of the testers use bugzilla to maintain test cases, you can also use excel or spreadsheet. Have a look at this article to learn how to <a href="https://www.loginradius.com/engineering/how-to-maintain-test-cases-in-excel-sheets/">maintain test cases in excel sheets</a></span></p>
+<h3><b>Test case for registration&nbsp;page</b></h3>
+<p><span style="font-weight: 400;">signup page and login page by assuming some client requirements such as:-</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Username and password are mandatory fields</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">There is a cancel and reset button at the bottom of the form</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Radio buttons and checkboxes are placed correctly</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The limit of Password should be 8-13 characters (alphanumeric ).</span></li>
+</ul>
+<div style="overflow-x: auto;">
+<table style="width: 908px;" border="1">
+<tbody>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 24px;">Sr. No.</td>
+<td style="height: 44px; width: 38px;">Test Cases</td>
+<td style="height: 44px; width: 69px;">Feature</td>
+<td style="height: 44px; width: 223px;">Description</td>
+<td style="height: 44px; width: 151.467px;">Steps To Execute</td>
+<td style="height: 44px; width: 209.533px;">Test Data/Input</td>
+<td style="height: 44px; width: 153px;">Expected Results</td>
+</tr>
+<tr style="height: 68px;">
+<td style="height: 68px; width: 24px;">1</td>
+<td style="height: 68px; width: 38px;">TC-001</td>
+<td style="height: 68px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Interface&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">User Interface</span></td>
+<td style="height: 68px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check all the text boxes, radio buttons, buttons etc&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check all the text boxes, radio buttons, buttons etc</span></td>
+<td style="height: 68px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Click on Radio buttons, buttons and dropdowns&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Click on Radio buttons, buttons and dropdowns</span></td>
+<td style="height: 68px; width: 209.533px;"></td>
+<td style="height: 68px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UI should be perfect&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">UI should be perfect</span></td>
+</tr>
+<tr style="height: 115px;">
+<td style="height: 115px; width: 24px;">2</td>
+<td style="height: 115px; width: 38px;">TC-002</td>
+<td style="height: 115px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Required fields&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Required fields</span></td>
+<td style="height: 115px; width: 223px;">Check the required fields by not filling any data</td>
+<td style="height: 115px; width: 151.467px;">1. Do not enter any value in the field<br>
+2. Click on Signup button</td>
+<td style="height: 115px; width: 209.533px;">&nbsp;Nil</td>
+<td style="height: 115px; width: 153px;">It Should show mandatory symbol (*) on mandatory fields.</td>
+</tr>
+<tr style="height: 162.867px;">
+<td style="height: 162.867px; width: 24px;">3</td>
+<td style="height: 162.867px; width: 38px;">TC-003</td>
+<td style="height: 162.867px; width: 69px;">Required fields</td>
+<td style="height: 162.867px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the required fields by filling the data&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the required fields by filling the data</span></td>
+<td style="height: 162.867px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid values in required fields \n2. Click on Signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter valid values in required fields<br>
+2. Click on Signup button</span></td>
+<td style="height: 162.867px; width: 209.533px;">&nbsp;Nil</td>
+<td style="height: 162.867px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. User should be register successfully\n2. A successful registration message should show\n3. Mail should send to the user&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. User should be register successfully<br>
+2. A successful registration message should show<br>
+3. Mail should send to the user</span></td>
+</tr>
+<tr style="height: 167px;">
+<td style="height: 167px; width: 24px;">4</td>
+<td style="height: 167px; width: 38px;">TC-004</td>
+<td style="height: 167px; width: 69px;">Optional fields</td>
+<td style="height: 167px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check all the optional field when do not fill data&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check all the optional field when do not fill data</span></td>
+<td style="height: 167px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Do not enter any detail in optional fields\n2. Enter valid data in required fields \n3. Click on Signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Do not enter any detail in optional fields<br>
+2. Enter valid data in required fields<br>
+3. Click on Signup button</span></td>
+<td style="height: 167px; width: 209.533px;">&nbsp;Nil</td>
+<td style="height: 167px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. It should not ask to fill the optional fields\n2. User should be register successfully\n3. A successful registration message should show\n4. Mail should send to the user&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. It should not ask to fill the optional fields<br>
+2. User should be register successfully<br>
+3. A successful registration message should show<br>
+4. Mail should send to the user</span></td>
+</tr>
+<tr style="height: 91px;">
+<td style="height: 91px; width: 24px;">5</td>
+<td style="height: 91px; width: 38px;">TC-005</td>
+<td style="height: 91px; width: 69px;">Optional fields</td>
+<td style="height: 91px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check all the optional field when fill data&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check all the optional field when fill data</span></td>
+<td style="height: 91px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid data in optional fields\n2. Enter valid data in required fields \n3. Click on Signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter valid data in optional fields<br>
+2. Enter valid data in required fields<br>
+3. Click on Signup button</span></td>
+<td style="height: 91px; width: 209.533px;">&nbsp;Nil</td>
+<td style="height: 91px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. User should be register successfully\n2. A successful registration message should show\n3. Mail should send to the user&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. User should be register successfully<br>
+2. A successful registration message should show<br>
+3. Mail should send to the user</span></td>
+</tr>
+<tr style="height: 115px;">
+<td style="height: 115px; width: 24px;">6</td>
+<td style="height: 115px; width: 38px;">TC-006</td>
+<td style="height: 115px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Email validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Email validation</span></td>
+<td style="height: 115px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;-- Check the Email text field that has Email address without @ symbol.\n-- Check the Email text field that has random string instead of real email.\n-- Check the Email text field that has @ symbol written in words.\n-- Check the Email text field that has missing dot in the email address.\n&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">— Check the Email text field that has Email address without @ symbol.<br>
+— Check the Email text field that has random string instead of real email.<br>
+— Check the Email text field that has @ symbol written in words.<br>
+— Check the Email text field that has missing dot in the email address.<br>
+</span></td>
+<td style="height: 115px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter Invalid Emails\n2. Click on Signup Button&quot;}" data-sheets-userformat="{&quot;2&quot;:8705,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter Invalid Emails<br>
+2. Click on Signup Button</span></td>
+<td style="height: 115px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. testAtgmail.com\n2. test@gmailcom\n3. test@gmail\n4. @gmail&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. testAtgmail.com<br>
+2. test@gmailcom<br>
+3. test@gmail<br>
+4. @gmail</span></td>
+<td style="height: 115px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show the validation message for valid email&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show the validation message for valid email</span></td>
+</tr>
+<tr style="height: 68px;">
+<td style="height: 68px; width: 24px;">7</td>
+<td style="height: 68px; width: 38px;">TC-007</td>
+<td style="height: 68px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Email validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Email validation</span></td>
+<td style="height: 68px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check all the valid emails&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check all the valid emails</span></td>
+<td style="height: 68px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter Valid Emails\n2. Click on Signup Button&quot;}" data-sheets-userformat="{&quot;2&quot;:8705,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter Valid Emails<br>
+2. Click on Signup Button</span></td>
+<td style="height: 68px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. test@192.168.1.1.0\n2. test@gmail.com&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. test@192.168.1.1.0<br>
+2. test@gmail.com</span></td>
+<td style="height: 68px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should not show any validation message&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should not show any validation message</span></td>
+</tr>
+<tr style="height: 91px;">
+<td style="height: 91px; width: 24px;">8</td>
+<td style="height: 91px; width: 38px;">TC-008</td>
+<td style="height: 91px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Phone Number validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Phone Number validation</span></td>
+<td style="height: 91px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the phone number when pass alphanumeric data&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the phone number when pass alphanumeric data</span></td>
+<td style="height: 91px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter alphanumeric data in phone field\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter alphanumeric data in phone field<br>
+2. Click on signup button</span></td>
+<td style="height: 91px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. dada5$7567#7&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. dada5$7567#7</span></td>
+<td style="height: 91px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show the validation message for Phone Number&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show the validation message for Phone Number</span></td>
+</tr>
+<tr style="height: 91px;">
+<td style="height: 91px; width: 24px;">9</td>
+<td style="height: 91px; width: 38px;">TC-009</td>
+<td style="height: 91px; width: 69px;">Phone Number validation</td>
+<td style="height: 91px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the phone number when not pass country code&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the phone number when not pass country code</span></td>
+<td style="height: 91px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid phone number without country code\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter valid phone number without country code<br>
+2. Click on signup button</span></td>
+<td style="height: 91px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. 9012078654&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. 9012078654</span></td>
+<td style="height: 91px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show the validation message for country code is required&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show the validation message for country code is required</span></td>
+</tr>
+<tr style="height: 68px;">
+<td style="height: 68px; width: 24px;">10</td>
+<td style="height: 68px; width: 38px;">TC-010</td>
+<td style="height: 68px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Phone Number validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Phone Number validation</span></td>
+<td style="height: 68px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the phone number when pass country code&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the phone number when pass country code</span></td>
+<td style="height: 68px; width: 151.467px;">1. Enter valid phone number with country code<br>
+2. Click on signup button</td>
+<td style="height: 68px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. +9190112244&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. +9190112244</span></td>
+<td style="height: 68px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should not show any validation message&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should not show any validation message</span></td>
+</tr>
+<tr style="height: 68px;">
+<td style="height: 68px; width: 24px;">11</td>
+<td style="height: 68px; width: 38px;">TC-011</td>
+<td style="height: 68px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Password validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Password validation</span></td>
+<td style="height: 68px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the password limit when enter value lesst than min&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the password limit when enter value less than min</span></td>
+<td style="height: 68px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter value which is alphanumeric but less than 8\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter value which is alphanumeric but less than 8<br>
+2. Click on signup button</span></td>
+<td style="height: 68px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Passwo\n&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Passwo<br>
+</span></td>
+<td style="height: 68px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show validation message&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show validation message</span></td>
+</tr>
+<tr style="height: 68px;">
+<td style="height: 68px; width: 24px;">12</td>
+<td style="height: 68px; width: 38px;">TC-012</td>
+<td style="height: 68px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Password validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Password validation</span></td>
+<td style="height: 68px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the password limit when enter value greater than max&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the password limit when enter value greater than max</span></td>
+<td style="height: 68px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter value which is alphanumeric but less more than 32\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter value which is alphanumeric but less more than 32<br>
+2. Click on signup button</span></td>
+<td style="height: 68px; width: 209.533px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. redhatisgood434adasdasdasd3243dsadadsad432423\n&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. redhatisgood434adasdasdasd3243dsadadsad432423<br>
+</span></td>
+<td style="height: 68px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show validation message&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show validation message</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 24px;">13</td>
+<td style="height: 44px; width: 38px;">TC-013</td>
+<td style="height: 44px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Password validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Password validation</span></td>
+<td style="height: 44px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the password when pass only numbers&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the password when pass only numbers</span></td>
+<td style="height: 44px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter value in numbers which is in between 8-32\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter value in numbers which is in between 8-32<br>
+2. Click on signup button</span></td>
+<td style="height: 44px; width: 209.533px;">&nbsp;<span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. 12345678&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. 12345678</span></td>
+<td style="height: 44px; width: 153px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;It should show validation message&quot;}" data-sheets-userformat="{&quot;2&quot;:15171,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;9&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:9}">It should show validation message</span></td>
+</tr>
+<tr style="height: 91px;">
+<td style="height: 91px; width: 24px;">14</td>
+<td style="height: 91px; width: 38px;">TC-014</td>
+<td style="height: 91px; width: 69px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Password validation&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Password validation</span></td>
+<td style="height: 91px; width: 223px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check the password when pass valid data&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check the password when pass valid data</span></td>
+<td style="height: 91px; width: 151.467px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter value in alphanumeric which is in between 8-32\n2. Click on signup button&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Enter value in alphanumeric which is in between 8-32<br>
+2. Click on signup button</span></td>
+<td style="height: 91px; width: 209.533px;">&nbsp;<span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Pass123456&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">1. Pass123456</span></td>
+<td style="height: 91px; width: 153px;">It should not show any validation messageTest case for Login page</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3><b>Test case for login page</b></h3>
+<div style="overflow-x: auto;">
+<table style="width: 902px;" border="1">
+<tbody>
+<tr style="height: 44.0334px;">
+<td style="width: 28px; height: 44.0334px;"><strong>Sr. No.</strong></td>
+<td style="width: 47px; height: 44.0334px;"><strong>Test Cases</strong></td>
+<td style="width: 99px; height: 44.0334px;"><strong>Check Item</strong></td>
+<td style="width: 270px; height: 44.0334px;"><strong>Test Case Objective</strong></td>
+<td style="width: 175px; height: 44.0334px;"><strong>Steps To Execute</strong></td>
+<td style="width: 249px; height: 44.0334px;"><strong>Expected Results</strong></td>
+</tr>
+<tr style="height: 73px;">
+<td style="width: 28px; height: 73px;">1</td>
+<td style="width: 47px; height: 73px;">TC-001</td>
+<td style="width: 99px; height: 73px;">User Interface</td>
+<td style="width: 270px; height: 73px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check all the text boxes, and buttons&quot;}" data-sheets-userformat="{&quot;2&quot;:8961,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;16&quot;:9}">Check all the text boxes, and buttons</span></td>
+<td style="width: 175px; height: 73px;">Check page</td>
+<td style="width: 249px; height: 73px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;-- UI should be perfect\n-- Text boxes and button should be aligned&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">— UI should be perfect<br>
+— Text boxes and button should be aligned</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">2</td>
+<td style="width: 47px; height: 44px;">TC-002</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Login&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User Login</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check When pass invalid user name&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Check When pass invalid user name</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter invalid username\n2. Enter correct password\n3. Click on Login Button&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">1. Enter invalid username<br>
+2. Enter correct password<br>
+3. Click on Login Button</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User should not login and should show proper error message&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User should not login and should show proper error message</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">3</td>
+<td style="width: 47px; height: 44px;">TC-003</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Login&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User Login</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CheckWhen pass correct username and invalid password&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">CheckWhen pass correct username and invalid password</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid username\n2. Enter incorrect password\n3. Click on Login Button&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">1. Enter valid username<br>
+2. Enter incorrect password<br>
+3. Click on Login Button</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User should not login and should show proper error message&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User should not login and should show proper error message</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">4</td>
+<td style="width: 47px; height: 44px;">TC-004</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Login&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User Login</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check Keeping Password blank &quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Check Keeping Password blank</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid username\n2. Do not enter password\n3. Click on Login Button&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">1. Enter valid username<br>
+2. Do not enter password<br>
+3. Click on Login Button</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User should not login and should show proper error message&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User should not login and should show proper error message</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">5</td>
+<td style="width: 47px; height: 44px;">TC-005</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Login&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User Login</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check when pass correct email and password&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Check when pass correct email and password</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid username\n2. Enter valid password\n3. Click on Login Button&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">1. Enter valid username<br>
+2. Enter valid password<br>
+3. Click on Login Button</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;-- User should login\n\n&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">— User should login</span><p></p>
+<p>&nbsp;</p></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">6</td>
+<td style="width: 47px; height: 44px;">TC-006</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Login&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">User Login</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check if password is entered in encrypted form&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Check if password is entered in encrypted form</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1. Enter valid username\n2. Enter password \n3. Click on Login Button&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">1. Enter valid username<br>
+2. Enter password<br>
+3. Click on Login Button</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Password is entered in encrypted form&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Password is entered in encrypted form</span></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 28px; height: 44px;">7</td>
+<td style="width: 47px; height: 44px;">TC-007</td>
+<td style="width: 99px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Signup Option for new users&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Signup Option for new users</span></td>
+<td style="width: 270px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Check whether the signup link for new user is working&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Check whether the signup link for new user is working</span></td>
+<td style="width: 175px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Click Signup link&quot;}" data-sheets-userformat="{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0}">Click Signup link</span></td>
+<td style="width: 249px; height: 44px;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Clicking signup link takes user to signup page successfully&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">Clicking signup link takes user to signup page successfully</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span style="font-weight: 400;">You need to think like an end-user for writing the best test cases and getting different scenarios of what will happen in real circumstances. If you install this creativity and perceive the product with the eyes of an end-user, you will be certainly near to create an error-free application.</span></p>
+<p><span style="font-weight: 400;">Be a perfectionist. Happy Testing!</span></p>
+<p><em>Also Read:</em></p>
+<ul>
+<li><strong><a href="https://www.loginradius.com/fuel/test-cases-for-your-e-commerce-payment-gateway-page/">Test Cases For Your E-commerce Payment Gateway Page</a></strong></li>
+<li><strong><a href="https://www.loginradius.com/fuel/writing-test-cases-for-ui/">Top Factors To Watch Out While Writing Test Cases For UI</a></strong></li>
+</ul>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<div class="oss_horizontal_share oss_title_replace share-container" data-share-titles="How to write Test Cases for Registration and Login Page" data-share-description="This Article Explains Everything You Need To Test A Login/Signup Page 🙂 . 
+
+ 
+Writing tes" data-share-imageurl="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026" data-share-url="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/"><div id="os-share-overlay"></div><div id="os-share-follow-bar"><div class="os-share-header"><h3>Follow us on social media!</h3></div><div id="os-share-follow-content"></div></div><a class="facebook share-provider flat square size-32 horizontal" data-provider="Facebook" title="Facebook" '=""></a><a class="twitter share-provider flat square size-32 horizontal" data-provider="Twitter" title="Twitter" '=""></a><a class="linkedin share-provider flat square size-32 horizontal" data-provider="LinkedIn" title="LinkedIn" '=""></a><a class="googleplus share-provider flat square size-32 horizontal" data-provider="GooglePlus" title="GooglePlus" '=""></a><a class="pinterest share-provider flat square size-32 horizontal" data-provider="Pinterest" title="Pinterest" '=""></a><a class="email share-provider flat square size-32 horizontal" data-provider="Email" title="Email" '=""></a><a class="print share-provider flat square size-32 horizontal" data-provider="Print" title="Print" '=""></a><div style="display: inline-block;position:relative;"><a class="more share-provider flat square size-32 horizontal" title="More Sharing Options" onclick="shareWidget.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"></a><div id="os-share-more"><div class="os-share-container" data-provider="Facebook"><a class="facebook share-provider" data-provider="Facebook" title="Facebook"></a>Facebook</div><div class="os-share-container" data-provider="GooglePlus"><a class="googleplus share-provider" data-provider="GooglePlus" title="GooglePlus"></a>GooglePlus</div><div class="os-share-container" data-provider="LinkedIn"><a class="linkedin share-provider" data-provider="LinkedIn" title="LinkedIn"></a>LinkedIn</div><div class="os-share-container" data-provider="Twitter"><a class="twitter share-provider" data-provider="Twitter" title="Twitter"></a>Twitter</div><div class="os-share-container" data-provider="Pinterest"><a class="pinterest share-provider" data-provider="Pinterest" title="Pinterest"></a>Pinterest</div><div class="os-share-container" data-provider="Email"><a class="email share-provider" data-provider="Email" title="Email"></a>Email</div><div class="os-share-container" data-provider="Google"><a class="google share-provider" data-provider="Google" title="Google"></a>Google</div><div class="os-share-container" data-provider="Digg"><a class="digg share-provider" data-provider="Digg" title="Digg"></a>Digg</div><div class="os-share-container" data-provider="Reddit"><a class="reddit share-provider" data-provider="Reddit" title="Reddit"></a>Reddit</div><div class="os-share-container" data-provider="Vkontakte"><a class="vkontakte share-provider" data-provider="Vkontakte" title="Vkontakte"></a>Vkontakte</div><div class="os-share-container" data-provider="Tumblr"><a class="tumblr share-provider" data-provider="Tumblr" title="Tumblr"></a>Tumblr</div><div class="os-share-container" data-provider="Delicious"><a class="delicious share-provider" data-provider="Delicious" title="Delicious"></a>Delicious</div><div class="os-share-container" id="more-sharing-options" onclick="shareWidget.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"><a class="share-provider evenmore" title="Even More Sharing Options"></a>More...</div><div class="os-share-more-footer"><a href="http://www.social9.com/" target="_blank">Social Share by<img src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/poweredby-social9.png" alt="Social9" style="height: 18px;"></a></div></div></div><div id="os-share-count" class="os-share-count share-provider">209</div><div id="os-share-even-more"><div class="os-share-header"><h2>Share &amp; Bookmark</h2><div id="os-share-even-close" onclick="shareWidget.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"><span>×</span></div></div><div class="os-share-container" data-provider="Facebook"><a class="facebook share-provider" data-provider="Facebook" title="Facebook"></a>Facebook</div><div class="os-share-container" data-provider="Pinterest"><a class="pinterest share-provider" data-provider="Pinterest" title="Pinterest"></a>Pinterest</div><div class="os-share-container" data-provider="BarraPunto"><a class="barrapunto share-provider" data-provider="BarraPunto" title="BarraPunto"></a>BarraPunto</div><div class="os-share-container" data-provider="Blogmarks"><a class="blogmarks share-provider" data-provider="Blogmarks" title="Blogmarks"></a>Blogmarks</div><div class="os-share-container" data-provider="Delicious"><a class="delicious share-provider" data-provider="Delicious" title="Delicious"></a>Delicious</div><div class="os-share-container" data-provider="Digg"><a class="digg share-provider" data-provider="Digg" title="Digg"></a>Digg</div><div class="os-share-container" data-provider="Diigo"><a class="diigo share-provider" data-provider="Diigo" title="Diigo"></a>Diigo</div><div class="os-share-container" data-provider="Email"><a class="email share-provider" data-provider="Email" title="Email"></a>Email</div><div class="os-share-container" data-provider="Google"><a class="google share-provider" data-provider="Google" title="Google"></a>Google</div><div class="os-share-container" data-provider="GooglePlus"><a class="googleplus share-provider" data-provider="GooglePlus" title="GooglePlus"></a>GooglePlus</div><div class="os-share-container" data-provider="HackerNews"><a class="hackernews share-provider" data-provider="HackerNews" title="HackerNews"></a>HackerNews</div><div class="os-share-container" data-provider="Haohao"><a class="haohao share-provider" data-provider="Haohao" title="Haohao"></a>Haohao</div><div class="os-share-container" data-provider="LinkArena"><a class="linkarena share-provider" data-provider="LinkArena" title="LinkArena"></a>LinkArena</div><div class="os-share-container" data-provider="LinkedIn"><a class="linkedin share-provider" data-provider="LinkedIn" title="LinkedIn"></a>LinkedIn</div><div class="os-share-container" data-provider="Linkter"><a class="linkter share-provider" data-provider="Linkter" title="Linkter"></a>Linkter</div><div class="os-share-container" data-provider="Meneame"><a class="meneame share-provider" data-provider="Meneame" title="Meneame"></a>Meneame</div><div class="os-share-container" data-provider="Muti"><a class="muti share-provider" data-provider="Muti" title="Muti"></a>Muti</div><div class="os-share-container" data-provider="MyShare"><a class="myshare share-provider" data-provider="MyShare" title="MyShare"></a>MyShare</div><div class="os-share-container" data-provider="Netvibes"><a class="netvibes share-provider" data-provider="Netvibes" title="Netvibes"></a>Netvibes</div><div class="os-share-container" data-provider="NewsVine"><a class="newsvine share-provider" data-provider="NewsVine" title="NewsVine"></a>NewsVine</div><div class="os-share-container" data-provider="Netvouz"><a class="netvouz share-provider" data-provider="Netvouz" title="Netvouz"></a>Netvouz</div><div class="os-share-container" data-provider="NuJIJ"><a class="nujij share-provider" data-provider="NuJIJ" title="NuJIJ"></a>NuJIJ</div><div class="os-share-container" data-provider="PDF"><a class="pdf share-provider" data-provider="PDF" title="PDF"></a>PDF</div><div class="os-share-container" data-provider="Reddit"><a class="reddit share-provider" data-provider="Reddit" title="Reddit"></a>Reddit</div><div class="os-share-container" data-provider="Segnalo"><a class="segnalo share-provider" data-provider="Segnalo" title="Segnalo"></a>Segnalo</div><div class="os-share-container" data-provider="StumbleUpon"><a class="stumbleupon share-provider" data-provider="StumbleUpon" title="StumbleUpon"></a>StumbleUpon</div><div class="os-share-container" data-provider="ThisNext"><a class="thisnext share-provider" data-provider="ThisNext" title="ThisNext"></a>ThisNext</div><div class="os-share-container" data-provider="Tumblr"><a class="tumblr share-provider" data-provider="Tumblr" title="Tumblr"></a>Tumblr</div><div class="os-share-container" data-provider="Twitter"><a class="twitter share-provider" data-provider="Twitter" title="Twitter"></a>Twitter</div><div class="os-share-container" data-provider="Vkontakte"><a class="vkontakte share-provider" data-provider="Vkontakte" title="Vkontakte"></a>Vkontakte</div><div class="os-share-container" data-provider="Whatsapp" style="display: none;"><a class="whatsapp share-provider" data-provider="Whatsapp" title="Whatsapp" style="display: none;"></a>Whatsapp</div><div class="os-share-container" data-provider="Wykop"><a class="wykop share-provider" data-provider="Wykop" title="Wykop"></a>Wykop</div><div class="os-share-container" data-provider="Xerpi"><a class="xerpi share-provider" data-provider="Xerpi" title="Xerpi"></a>Xerpi</div><div class="os-share-container" data-provider="Diggita"><a class="diggita share-provider" data-provider="Diggita" title="Diggita"></a>Diggita</div><div class="os-share-container" data-provider="MySpace"><a class="myspace share-provider" data-provider="MySpace" title="MySpace"></a>MySpace</div><div class="os-share-more-footer"><a href="http://www.social9.com/" target="_blank">Social Share by<img src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/poweredby-social9.png" alt="Social9" style="height: 22px;"></a></div></div></div><div class="authorsure-author-box"><img src="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/tanupriya-150x150.jpg?ver=1512428026" width="140" height="140" alt="tanupriya" class="avatar avatar-140 wp-user-avatar wp-user-avatar-140 alignnone photo"><h3>About&nbsp;<a rel="author" href="https://www.loginradius.com/engineering/author/tanupriya/" class="authorsure-author-link">tanupriya</a></h3><p>Tanupriya is the Quality Analyst Engineer at LoginRadius. Her passion lies in delivering high performance quality software quickly and efficiently. Moreover she also enjoys the cooking and outing in free time.</p>
+</div><div class="clear"></div>                                                
+                    </div>
+                    <div class="after-post-group">
+                                                                    </div>
+                    <nav class="cf">
+                        	<div class="button btn-prev tooltip" data-title="Sweet 16 Javascript Hacks and Tips To Optimize Performance and Save time"><a rel="prev" href="https://www.loginradius.com/engineering/16-javascript-hacks-for-optimization/" title="Sweet 16 Javascript Hacks and Tips To Optimize Performance and Save time" class=" "><span class="icon-arrow-left"></span> Previous post</a></div>
+	<div class="button btn-next tooltip" title="Know The Types of Website Popups and How to Create Them"><a rel="next" href="https://www.loginradius.com/engineering/the-ultimate-guide-to-website-pop-ups/" title="Know The Types of Website Popups and How to Create Them" class=" ">Next post <span class="icon-arrow-right"></span></a></div>
+                    </nav>
+                </article>
+                
+<!-- You can start editing here. -->
+
+<div class="comments">
+    
+                    <!-- If comments are open, but there are no comments. -->
+
+            
+
+    
+        <section id="respond">
+
+            <hr>
+
+            <h3>Leave a Reply</h3>
+
+            <div class="cancel-comment-reply">
+                <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/#respond" style="display:none;">Click here to cancel reply.</a></small>
+            </div>
+
+            
+                <form action="http://www.loginradius.com/engineering/wp-comments-post.php" method="post" id="commentform">
+
+                    
+                        <p>
+                            <label for="author">Name</label>
+                            <input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required="true">
+                        </p>
+
+                        <p>
+                            <label for="email">Email (will not be published)</label>
+                            <input type="email" name="email" id="email" value="" size="22" tabindex="2" aria-required="true">
+                        </p>
+
+                        <p>
+                            <label for="url">Website</label>
+                            <input type="url" name="url" id="url" value="" size="22" tabindex="3">
+                        </p>
+
+                    
+                    <p>
+                        <label for="url">Comment</label>
+                        <textarea name="comment" id="comment" rows="5" tabindex="4"></textarea>
+                    </p><p style="font-size: 12px;color: #444;margin: 0;text-align: right;"> *Required</p>
+                    <p></p>
+
+
+                    <p>
+                        <input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment">
+                        <input type="hidden" name="comment_post_ID" value="957" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                    </p>
+                    
+                </form>
+
+                    </section>
+
+    </div>
+                </div>
+    <div class="sidebar">
+<aside id="sidebar">
+  <section class="side-frame"><h5 class="widgettitle">Free Email Updates</h5><script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.1.9 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-679" method="post" data-id="679" data-name="Default sign-up form"><div class="mc4wp-form-fields"><p>Get the latest content first</p>
+
+<label>
+	<input type="text" name="FNAME" placeholder="Name*" required="required">
+</label>
+
+<label>
+	<input type="email" name="EMAIL" placeholder="Email*" required="required">
+</label>
+
+<input type="submit" value="Sign me up!"><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1512757830"><input type="hidden" name="_mc4wp_form_id" value="679"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></section><section class="side-frame"><h5 class="widgettitle">Categories</h5><div class="tagcloud"><a href="https://www.loginradius.com/engineering/category/developer-resources/" class="tag-cloud-link tag-link-2 tag-link-position-1" style="font-size: 17.4857142857px;" aria-label="developer resources (21 items)">developer resources</a>
+<a href="https://www.loginradius.com/engineering/category/developer-tutorials/" class="tag-cloud-link tag-link-3 tag-link-position-2" style="font-size: 18px;" aria-label="developer tutorials (49 items)">developer tutorials</a>
+<a href="https://www.loginradius.com/engineering/category/general/" class="tag-cloud-link tag-link-4 tag-link-position-3" style="font-size: 17.2571428571px;" aria-label="General (14 items)">General</a>
+<a href="https://www.loginradius.com/engineering/category/personal-branding/" class="tag-cloud-link tag-link-5 tag-link-position-4" style="font-size: 16px;" aria-label="Personal Branding (1 item)">Personal Branding</a></div>
+</section>		<section class="side-frame">		<h5 class="widgettitle">Recent Posts</h5>		<ul>
+											<li>
+					<a href="https://www.loginradius.com/engineering/eol-end-of-line-or-newline-characters/">EOL End of Line or Newline Characters</a>
+									</li>
+											<li>
+					<a href="https://www.loginradius.com/engineering/what-is-cocoapods-and-installation/">Cocoapods : What It Is And How To Install?</a>
+									</li>
+											<li>
+					<a href="https://www.loginradius.com/engineering/node-package-manager-npm/">Node Package Manager (NPM)</a>
+									</li>
+											<li>
+					<a href="https://www.loginradius.com/engineering/get-your-free-ssl-certificate/">Get your FREE SSL Certificate!</a>
+									</li>
+											<li>
+					<a href="https://www.loginradius.com/engineering/how-to-use-maven-dependency-in-eclipse/">How to use Maven Dependency in Eclipse</a>
+									</li>
+					</ul>
+		</section>    
+  
+</aside>
+
+    </div>
+</div>
+
+</div>
+</div>
+
+<footer class="main-footer cf">
+    <div class="container cf">
+        <ul class="social-icons">
+            <li><a target="_blank" class="facebook" href="https://www.facebook.com/loginradius">Facebook</a></li>
+            <li><a target="_blank" class="twitter" href="https://twitter.com/LoginRadius">Twitter</a></li>
+            <li><a target="_blank" class="gplus" href="https://plus.google.com/+Loginradius">Google Plus</a></li>
+            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/company/loginradius">Linked In</a></li>
+            <li><a target="_blank" class="youtube" href="https://www.youtube.com/user/LoginRadius">Youtube</a></li>
+            <li><a target="_blank" class="github" href="https://github.com/LoginRadius">Github</a></li>
+        </ul>
+        <ul class="links">
+
+            <li><a href="https://www.loginradius.com/registration-service/standard-login/" target="_blank" title="Products">Products</a></li>
+            <li><a href="https://www.loginradius.com/pricing" target="_blank" title="Pricing">Pricing</a></li>
+            <li><a href="https://www.loginradius.com/developers" target="_blank" title="Developers">Developers</a></li>
+            <li><a href="https://www.loginradius.com/resources" target="_blank" title="Resources">Resources</a></li>
+            <li><a href="https://www.loginradius.com/company" target="_blank" title="Company">Company</a></li>
+        </ul>
+        <div class="copyright">
+            Copyright © 2017, LoginRadius Inc.
+            |
+            <a href="https://www.loginradius.com/terms" target="_blank" title="Terms of Use">Terms of Use</a>
+            |
+            <a href="https://www.loginradius.com/privacy" target="_blank" title="Privacy Policy">Privacy Policy</a>
+        </div>
+    </div>
+
+</footer>
+
+
+<div class="oss_title_replace oss-share-vertical-fix oss_5a2ada46bde6e share-container" style="position: fixed;top: 200px;left: 0;" data-share-titles="How to write Test Cases for Registration and Login Page" data-share-description="This Article Explains Everything You Need To Test A Login/Signup Page :-) . 
+
+ 
+Writing tes" data-share-imageurl="https://www.loginradius.com/engineering/wp-content/uploads/sites/4/2017/04/How-to-write-Test-Cases-for-Registration-Login-Page.jpg?ver=1512428026" data-share-url="https://www.loginradius.com/engineering/test-cases-for-registration-and-login-page/"><div id="os-share-overlay"></div><div id="os-share-follow-bar"><div class="os-share-header"><h3>Follow us on social media!</h3></div><div id="os-share-follow-content"></div></div><a class="facebook share-provider flat square size-32 vertical" data-provider="Facebook" title="Facebook" '=""></a><a class="twitter share-provider flat square size-32 vertical" data-provider="Twitter" title="Twitter" '=""></a><a class="linkedin share-provider flat square size-32 vertical" data-provider="LinkedIn" title="LinkedIn" '=""></a><a class="googleplus share-provider flat square size-32 vertical" data-provider="GooglePlus" title="GooglePlus" '=""></a><a class="pinterest share-provider flat square size-32 vertical" data-provider="Pinterest" title="Pinterest" '=""></a><a class="email share-provider flat square size-32 vertical" data-provider="Email" title="Email" '=""></a><a class="print share-provider flat square size-32 vertical" data-provider="Print" title="Print" '=""></a><div style="display: inline-block;position:relative;"><a class="more share-provider flat square size-32 vertical" title="More Sharing Options" onclick="shareWidgetVertical.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"></a><div id="os-share-more"><div class="os-share-container" data-provider="Facebook"><a class="facebook share-provider" data-provider="Facebook" title="Facebook"></a>Facebook</div><div class="os-share-container" data-provider="GooglePlus"><a class="googleplus share-provider" data-provider="GooglePlus" title="GooglePlus"></a>GooglePlus</div><div class="os-share-container" data-provider="LinkedIn"><a class="linkedin share-provider" data-provider="LinkedIn" title="LinkedIn"></a>LinkedIn</div><div class="os-share-container" data-provider="Twitter"><a class="twitter share-provider" data-provider="Twitter" title="Twitter"></a>Twitter</div><div class="os-share-container" data-provider="Pinterest"><a class="pinterest share-provider" data-provider="Pinterest" title="Pinterest"></a>Pinterest</div><div class="os-share-container" data-provider="Email"><a class="email share-provider" data-provider="Email" title="Email"></a>Email</div><div class="os-share-container" data-provider="Google"><a class="google share-provider" data-provider="Google" title="Google"></a>Google</div><div class="os-share-container" data-provider="Digg"><a class="digg share-provider" data-provider="Digg" title="Digg"></a>Digg</div><div class="os-share-container" data-provider="Reddit"><a class="reddit share-provider" data-provider="Reddit" title="Reddit"></a>Reddit</div><div class="os-share-container" data-provider="Vkontakte"><a class="vkontakte share-provider" data-provider="Vkontakte" title="Vkontakte"></a>Vkontakte</div><div class="os-share-container" data-provider="Tumblr"><a class="tumblr share-provider" data-provider="Tumblr" title="Tumblr"></a>Tumblr</div><div class="os-share-container" data-provider="Delicious"><a class="delicious share-provider" data-provider="Delicious" title="Delicious"></a>Delicious</div><div class="os-share-container" id="more-sharing-options" onclick="shareWidgetVertical.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"><a class="share-provider evenmore" title="Even More Sharing Options"></a>More...</div><div class="os-share-more-footer"><a href="http://www.social9.com/" target="_blank">Social Share by<img src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/poweredby-social9.png" alt="Social9" style="height: 18px;"></a></div></div></div><div id="os-share-count" class="os-share-count share-provider">209</div><div id="os-share-even-more"><div class="os-share-header"><h2>Share &amp; Bookmark</h2><div id="os-share-even-close" onclick="shareWidgetVertical.util.toggleElementDisplay(&#39;os-share-even-more&#39;,true,&#39;os-share-overlay&#39;,this);"><span>×</span></div></div><div class="os-share-container" data-provider="Facebook"><a class="facebook share-provider" data-provider="Facebook" title="Facebook"></a>Facebook</div><div class="os-share-container" data-provider="Pinterest"><a class="pinterest share-provider" data-provider="Pinterest" title="Pinterest"></a>Pinterest</div><div class="os-share-container" data-provider="BarraPunto"><a class="barrapunto share-provider" data-provider="BarraPunto" title="BarraPunto"></a>BarraPunto</div><div class="os-share-container" data-provider="Blogmarks"><a class="blogmarks share-provider" data-provider="Blogmarks" title="Blogmarks"></a>Blogmarks</div><div class="os-share-container" data-provider="Delicious"><a class="delicious share-provider" data-provider="Delicious" title="Delicious"></a>Delicious</div><div class="os-share-container" data-provider="Digg"><a class="digg share-provider" data-provider="Digg" title="Digg"></a>Digg</div><div class="os-share-container" data-provider="Diigo"><a class="diigo share-provider" data-provider="Diigo" title="Diigo"></a>Diigo</div><div class="os-share-container" data-provider="Email"><a class="email share-provider" data-provider="Email" title="Email"></a>Email</div><div class="os-share-container" data-provider="Google"><a class="google share-provider" data-provider="Google" title="Google"></a>Google</div><div class="os-share-container" data-provider="GooglePlus"><a class="googleplus share-provider" data-provider="GooglePlus" title="GooglePlus"></a>GooglePlus</div><div class="os-share-container" data-provider="HackerNews"><a class="hackernews share-provider" data-provider="HackerNews" title="HackerNews"></a>HackerNews</div><div class="os-share-container" data-provider="Haohao"><a class="haohao share-provider" data-provider="Haohao" title="Haohao"></a>Haohao</div><div class="os-share-container" data-provider="LinkArena"><a class="linkarena share-provider" data-provider="LinkArena" title="LinkArena"></a>LinkArena</div><div class="os-share-container" data-provider="LinkedIn"><a class="linkedin share-provider" data-provider="LinkedIn" title="LinkedIn"></a>LinkedIn</div><div class="os-share-container" data-provider="Linkter"><a class="linkter share-provider" data-provider="Linkter" title="Linkter"></a>Linkter</div><div class="os-share-container" data-provider="Meneame"><a class="meneame share-provider" data-provider="Meneame" title="Meneame"></a>Meneame</div><div class="os-share-container" data-provider="Muti"><a class="muti share-provider" data-provider="Muti" title="Muti"></a>Muti</div><div class="os-share-container" data-provider="MyShare"><a class="myshare share-provider" data-provider="MyShare" title="MyShare"></a>MyShare</div><div class="os-share-container" data-provider="Netvibes"><a class="netvibes share-provider" data-provider="Netvibes" title="Netvibes"></a>Netvibes</div><div class="os-share-container" data-provider="NewsVine"><a class="newsvine share-provider" data-provider="NewsVine" title="NewsVine"></a>NewsVine</div><div class="os-share-container" data-provider="Netvouz"><a class="netvouz share-provider" data-provider="Netvouz" title="Netvouz"></a>Netvouz</div><div class="os-share-container" data-provider="NuJIJ"><a class="nujij share-provider" data-provider="NuJIJ" title="NuJIJ"></a>NuJIJ</div><div class="os-share-container" data-provider="PDF"><a class="pdf share-provider" data-provider="PDF" title="PDF"></a>PDF</div><div class="os-share-container" data-provider="Reddit"><a class="reddit share-provider" data-provider="Reddit" title="Reddit"></a>Reddit</div><div class="os-share-container" data-provider="Segnalo"><a class="segnalo share-provider" data-provider="Segnalo" title="Segnalo"></a>Segnalo</div><div class="os-share-container" data-provider="StumbleUpon"><a class="stumbleupon share-provider" data-provider="StumbleUpon" title="StumbleUpon"></a>StumbleUpon</div><div class="os-share-container" data-provider="ThisNext"><a class="thisnext share-provider" data-provider="ThisNext" title="ThisNext"></a>ThisNext</div><div class="os-share-container" data-provider="Tumblr"><a class="tumblr share-provider" data-provider="Tumblr" title="Tumblr"></a>Tumblr</div><div class="os-share-container" data-provider="Twitter"><a class="twitter share-provider" data-provider="Twitter" title="Twitter"></a>Twitter</div><div class="os-share-container" data-provider="Vkontakte"><a class="vkontakte share-provider" data-provider="Vkontakte" title="Vkontakte"></a>Vkontakte</div><div class="os-share-container" data-provider="Whatsapp" style="display: none;"><a class="whatsapp share-provider" data-provider="Whatsapp" title="Whatsapp" style="display: none;"></a>Whatsapp</div><div class="os-share-container" data-provider="Wykop"><a class="wykop share-provider" data-provider="Wykop" title="Wykop"></a>Wykop</div><div class="os-share-container" data-provider="Xerpi"><a class="xerpi share-provider" data-provider="Xerpi" title="Xerpi"></a>Xerpi</div><div class="os-share-container" data-provider="Diggita"><a class="diggita share-provider" data-provider="Diggita" title="Diggita"></a>Diggita</div><div class="os-share-container" data-provider="MySpace"><a class="myspace share-provider" data-provider="MySpace" title="MySpace"></a>MySpace</div><div class="os-share-more-footer"><a href="http://www.social9.com/" target="_blank">Social Share by<img src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/poweredby-social9.png" alt="Social9" style="height: 22px;"></a></div></div></div>
+<!-- Google Tag Manager (noscript) --><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type="text/javascript" src="https://www.loginradius.com/engineering/wp-includes/js/comment-reply.min.js?ver=1512428026"></script>
+<script type="text/javascript" src="https://www.loginradius.com/engineering/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=1512428026"></script>
+<script type="text/javascript" src="https://www.loginradius.com/engineering/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/js/oss_share.js?ver=1512428026"></script>
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/opensocialsharedefaulttheme.js.download"></script>
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/opensocialshare.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/forms-api.min.js.download"></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://www.loginradius.com/engineering/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=1512428026'></script>
+<![endif]-->
+
+               <script type="text/javascript">
+        var shareWidget = new OpenSocialShare();
+        shareWidget.init({
+             isEmailContentReadOnly:false,isTotalShare:true,isMobileFriendly:true,isShortenUrl:true,isOpenSingleWindow:false,protocolNeutral: true,                 
+            isCounterWidgetTheme: 0, // 0 or 1 - standard themes or counter widget themes
+            isHorizontalCounter: 0, // 0 or 1 - counter on top or counter to right - counter themes only
+            isHorizontalLayout: 1, // 0 or 1 - vertical layout or horizontal layout
+            widgetIconSize: "32", // "16" or "32" - 16px or 32px standard themes only
+                       widgetStyle: "square", //"image", "square" or "responsive" - standard themes only
+            
+           
+            providers: {
+                
+                   top: ["Facebook","Twitter","LinkedIn","GooglePlus","Pinterest","Email","Print"]
+                },
+           widgets: {
+                 //all : _private.getAllButtonName(_private.widgetConfig),
+                      top: ["Facebook Like","Twitter Tweet","Google+ Share","Pinterest Pin it","LinkedIn Share"]
+                      },
+                          theme: 'OpenSocialShareDefaultTheme',
+             
+        });
+        shareWidget.injectInterface(".oss_horizontal_share");
+        shareWidget.setWidgetTheme(".oss_horizontal_share");
+    </script>
+                                        <script type="text/javascript">
+        var shareWidgetVertical = new OpenSocialShare();
+        shareWidgetVertical.init({
+             isEmailContentReadOnly:false,isMobileFriendly:true,isTotalShare:true,isShortenUrl:true,isOpenSingleWindow:false,protocolNeutral: true,                 
+            isCounterWidgetTheme: 0, // 0 or 1 - standard themes or counter widget themes
+            isHorizontalCounter: 0, // 0 or 1 - counter on top or counter to right - counter themes only
+            isHorizontalLayout: 0, // 0 or 1 - vertical layout or horizontal layout
+            widgetIconSize: "32", // "16" or "32" - 16px or 32px standard themes only
+            widgetStyle: "square", //"image", "square" or "responsive" - standard themes only
+           
+            providers: {
+                
+                   top: ["Facebook","Twitter","LinkedIn","GooglePlus","Pinterest","Email","Print"]
+                },
+            widgets: {
+                 //all : _private.getAllButtonName(_private.widgetConfig),
+                      top: ["Facebook Like","Twitter Tweet","Google+ Share","Pinterest Pin it","LinkedIn Share"]
+                      },
+           
+            theme: 'OpenSocialShareDefaultTheme',  
+        });
+        shareWidgetVertical.injectInterface(".oss_5a2ada46bde6e");
+        shareWidgetVertical.setWidgetTheme(".oss_5a2ada46bde6e");
+    </script>
+                        
+                                
+<script src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/script.js.download"></script>
+
+<script>
+    jQuery(function ($) {
+        $(window).load(function () {
+            $(".content-group .lrsharing-parent > .lrsharing-floated > .lrshare_interfacebox").removeAttr("style");
+        });
+    });
+</script>
+
+
+
+<!-- Cached page for great performance -->
+<script type="text/javascript" id="">window.olark||function(g){var b=window,f=document,w="https:"==b.location.protocol?"https:":"http:",d=g.name,e="load",k=function(){function l(){a.P(e);b[d](e)}b[d]=function(){(a.s=a.s||[]).push(arguments)};for(var a=b[d]._={},h=g.methods.length;h--;)(function(a){b[d][a]=function(){b[d]("call",a,arguments)}})(g.methods[h]);a.l=g.loader;a.i=k;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};b.addEventListener?b.addEventListener(e,l,!1):b.attachEvent("on"+e,l);var v=function(){function b(c){c=
+"head";return["\x3c",c,"\x3e\x3c/",c,"\x3e\x3c",e,' onload\x3d"var d\x3d',m,";d.getElementsByTagName('head')[0].",p,"(d.",n,"('script')).",q,"\x3d'",w,"//",a.l,"'\"\x3e\x3c/",e,"\x3e"].join("")}var e="body",r=f[e];if(!r)return setTimeout(v,100);a.P(1);var p="appendChild",n="createElement",q="src",t=f[n]("div"),l=t[p](f[n](d)),c=f[n]("iframe"),m="document",h="domain",u;t.style.display="none";r.insertBefore(t,r.firstChild).id=d;c.frameBorder="0";c.id=d+"-loader";/MSIE[ ]+6/.test(navigator.userAgent)&&
+(c.src="javascript:false");c.allowTransparency="true";l[p](c);try{c.contentWindow[m].open()}catch(x){g[h]=f[h],u="javascript:var d\x3d"+m+".open();d.domain\x3d'"+f.domain+"';",c[q]=u+"void(0);"}try{var k=c.contentWindow[m];k.write(b());k.close()}catch(x){c[q]=u+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};v()};k()}({loader:"static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});olark.identify("5785-774-10-7024");</script><noscript>&lt;a href="https://www.olark.com/site/5785-774-10-7024/contact" title="Contact us" target="_blank"&gt;Questions? Feedback?&lt;/a&gt; powered by &lt;a href="http://www.olark.com?welcome" title="Olark live chat software"&gt;Olark live chat software&lt;/a&gt;</noscript>
+<script type="text/javascript" id="">(function(a,b,c){window.Wishpond=window.Wishpond||{};Wishpond.merchantId="1265222";Wishpond.writeKey="165027887857";var d=a.getElementsByTagName(b)[0];a.getElementById(c)||(a=a.createElement(b),a.id=c,a.src="//cdn.wishpond.net/connect.js",d.parentNode.insertBefore(a,d))})(document,"script","wishpond-connect");</script><script type="text/javascript" id="">window.__wtw_lucky_site_id=84071;(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://d10lpsik1i8c69.cloudfront.net/w.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><iframe data-olark="true" aria-hidden="true" style="width: 0px; height: 0px; position: absolute; left: 0px; bottom: 0px; border: none;" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/saved_resource(1).html"></iframe><iframe id="wp-store" src="./How to write Test Cases for Registration_Login Page _ LoginRadius Engineering 2_files/storage.html" style="display: none; position: absolute; top: -999px; left: -999px;"></iframe><script src="https://dc.ads.linkedin.com/collect/?time=1512759063774&amp;pid=83637&amp;url=https%3A%2F%2Fwww.loginradius.com%2Fengineering%2Ftest-cases-for-registration-and-login-page%2F&amp;pageUrl=https%3A%2F%2Fwww.loginradius.com%2Fengineering%2Ftest-cases-for-registration-and-login-page%2F&amp;ref=&amp;fmt=js&amp;s=1" type="text/javascript"></script><div id="wishpond_4a7ef35f18eca"></div></body></html>

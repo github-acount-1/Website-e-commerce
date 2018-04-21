@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<h1>New User Registration</h1>
+	<form action="../php/authenticate/register.php" method="POST">
+		<div>
+			First name <br>
+			<input type="text" placeholder="Enter your fisrt name " name="firstname"><br>
+			Last name <br>
+			<input type="text" Placeholder="Enter your last name" name="lastname"><br>
+			User name <br>
+			<input type="text" name="username" placeholder="Enter user name"><br>
+			Password <br>
+			<input type="password" name="psw" placeholder="Enter a password"><br>
+			Confirm Password<br>
+			<input type="password" name="psw" placeholder="Please confirm the password"><br>
+			Email <br>
+			<input type="text" placeholder="Enter your Email" name="email"><br>
+			Phone number <br>
+			<input type="text" placeholder="Enter your phone number" name="phonenumber"><br>
+			Sex <br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			Country<br>
+			<select name="Country">
+				<option value="Ethiopia">Ethiopia</option>
+				<option value="America"> America</option>
+			</select><br>
+			City/Town <br>
+			<input type="text" placeholder="Enter your city/town" name="city/town"><br>
+			<input type="checkbox" name="termsandpolcies" value="termsandpolcies">I Accept Terms and Plocies<br>
+			<input type="submit" value="SIGN UP">
+		</div>
+	</form>
+</body>
+<html>

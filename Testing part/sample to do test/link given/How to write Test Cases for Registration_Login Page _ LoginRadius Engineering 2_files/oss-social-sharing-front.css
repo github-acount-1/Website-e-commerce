@@ -1,0 +1,41 @@
+/*Widget && Shortcode*/
+.oss_ver_share_widget, .oss_ver_share_shortcode{
+	position: relative !important;
+	z-index: 1 !important;
+}
+
+/*====================
+	Sharing Front
+=======================*/
+
+div.osscounter-vertical-horizontal table {
+	width: auto;
+}
+
+.osshare_right {
+	float: right;
+}
+.osshare_left{
+	float: left;
+}
+
+/*This css corrects IE issue with vertical sharing widgets displaying horizontal*/
+.osshare_interfacebox div[class*=osshare_] {
+	clear: both;
+}
+
+/*This css corrects IE Scrollbar over vertical sharing interfaces*/
+html {
+   -ms-overflow-style: scrollbar;
+}
+
+/*This css corrects invalid markup from js file-- To be removed*/
+.oss-share-vertical-fix[style*="right:"] oss ossc:last-child div {
+	float: right;
+}
+.oss-share-vertical-fix .twitter-share-button{
+	width: 56px !important;
+}
+.os-share-counter-widget iframe{
+         margin-bottom: 0px;
+}

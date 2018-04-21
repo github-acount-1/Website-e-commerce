@@ -1,0 +1,40 @@
+//Coding Conventions
+
+Class names -- start with uppercase letter 
+				e.g Watch, MensClothCategory, Item ....
+
+Interface names -- preface interface names with I
+				e.g ICategory, IFashion ....
+
+Function names -- start with lowercase letter and continue with uppercase
+				e.g sum, getCategoryName, getPrice ....
+
+Variable names -- same as function names
+
+//file naming
+
+File names -- all in lowercase, if multiple words separate with underscore
+				e.g items.php, display_items_page.php, login.html, ....
+
+Class file names -- class name plus .class identifier
+				e.g (class name) Item --> (file name) --> item.class.php, 
+					(class name) RolexWatch --> (file name) --> rolex_watch.class.php ...
+
+Html pages -- names separated with underscore
+				e.g login.html, register_user.html .....
+
+Php pages that generate html -- names separated with underscore plus .html identifier
+				e.g display_items.html.php, profile.html.php
+
+//database naming
+
+table names -- all in lowercase, separated by underscore
+				e.g customer, user_preference, auction_item
+
+table data names -- all in lowercase, separated by underscore
+				e.g user_id, user_name, date, country
+
+
+//other practices
+-- In classes set variables to private or protected and provide getter and setter methods as neccessary
+-- make your class names variable names file names interface names as clear as possible

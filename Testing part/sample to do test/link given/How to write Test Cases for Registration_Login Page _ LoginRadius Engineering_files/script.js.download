@@ -1,0 +1,10 @@
+jQuery(document).ready(function ($) {
+    $(window).scroll(function () {
+        var scrollVal = $(this).scrollTop();
+        if (scrollVal > 201) {
+            $('.lrsharing-floated').addClass('sticky');
+        } else {
+            $('.lrsharing-floated').removeClass('sticky');
+        }
+    });
+});

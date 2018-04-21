@@ -1,0 +1,42 @@
+inside Shola\php\includes function are two files helpers_inc.php and db_inc.php
+
+//db_inc.php
+- this php file is used to setup connection to the database. you must not write your own database connection instead include this file in your php 
+file. 
+
+-It sets up both pdo and mysqli connections
+
+-for the pdo connection the connection is set up and returned in $pdo function so make sure to use that if you are using pdo connection
+
+//end db_inc.php
+
+//helpers_inc.php
+- helpers_inc.php includes a constant ROOT_DIR, this constant locates the root directory of the project
+	for  windows its equal to c:\xampp\htdocs\shola
+	for linux /opt/lampp/htdocs/shola
+	
+Steps to include files
+
+1. if you want to include php files always locate and include helpers_inc relatively from your current directory
+
+2. use ROOT_DIR constant to locate and include the file you want
+
+e.g
+a file in shola/php/classes wants to connect to database
+
+file test.class.php
+
+source code
+
+<?php
+	//this makes ROOT_DIR constant available for use
+	require_once '../includes/helpers_inc.php  
+	
+	//this locates the neccessary file from the root directory
+	require_once ROOT_DIR.'php/includes/db_inc.php
+	
+	//TODO
+	
+?>
+
+//end helpers_inc.php
